@@ -1,0 +1,19 @@
+html(lang="en")
+   head
+      meta(charset="UTF-8")
+      meta(http-equiv="X-UA-Compatible", content="IE=edge")
+      meta(name="viewport", content="width=device-width, initial-scale=1.0")
+      link(rel="stylesheet", href="css/style.css")
+      title Document
+   body 
+
+div(class='alinear')
+ form(class='contenedor' action="/create", method="post")
+   h2 Anotar un trabajo realizado
+   input(type="text" name="nombre" placeholder='Nombre del cliente' required)
+   input(type="text" name="telefono"  placeholder='Modelo del telefono' required)
+   input(type="text" name='reparacion'  placeholder='Tipo de reparación' required)
+   button(type="submit") Enviar
+   a(class='a' href="/contend") Inicio  
+
+   
